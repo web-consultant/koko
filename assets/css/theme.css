@@ -316,12 +316,13 @@ color:#000;
     font-size: 0.8125rem;
     line-height: 1.75rem;
     display: inline-block;
-    padding-left: 2rem;
+    padding-left: 2.375rem;
   }
 
   .koko-footer .koko-contact-wrap li a.koko-phone {
     background: url('../img/footer-contact.svg') no-repeat;
     background-size: 1rem;
+    background-position: 0.188rem 0;
   }
   .koko-footer .koko-contact-wrap li a.koko-location {
     background: url('../img/footer-map.svg') no-repeat;
