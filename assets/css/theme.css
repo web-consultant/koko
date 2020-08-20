@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('../font/Bahnschrift.eot?#iefix') format('embedded-opentype'),  url('../font/Bahnschrift.woff') format('woff'), url('../font/Bahnschrift.ttf')  format('truetype'), url('../font/Bahnschrift.svg#Bahnschrift') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    margin: 0;
+    font-family: Bahnschrift,serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #000;
+    text-align: left;
+    background-color: #fff;
+    font-variation-settings: "wdth" 100;
+}
+a, a:hover {
+color:#000;
+}
+
+.koko-bg{
+    background: #FFEE00;
+    padding: 1.438rem 0;
+    position: sticky;
+}
+
+.koko-bg.navbar-light .navbar-nav .nav-link {
+    font-size: 0.875rem;
+    color:#000;
+}
+.koko-head-content {
+    background: #FFEE00;
+    min-height: 12rem;
+}
+
+.koko-content-1 .koko-key-points{
+    list-style: none;
+    margin-top:40%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.koko-content-1 .koko-key-points li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.125rem;
+}
+
+.koko-content-1 .koko-key-points-content {
+    background: #EFEFEE;
+    color:#8E8E8E;
+    font-size: 1.563rem;
+    padding: 7% 4% 4% 4%
+}
+
+.koko-content-1 .koko-key-points-close-btn {
+    position: absolute;
+    right:15px;
+    top:0;
+    width:auto;
+    height: auto;
+}
+
+
+.koko-content-1 .carousel-caption {
+    left:-30.6%;
+    top: 5.8%;
+    right:0;
+}
+.koko-content-1 .carousel-caption h1 {
+    font-size: 4.063rem;
+    color:#FFEE00;
+    letter-spacing: 0.4375rem;
+    line-height: 4.5rem;
+}
+
+.koko-content-1 .carousel-control-next-icon {
+    width: 29px;
+    height: 42px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOS4wNDQiIGhlaWdodD0iNDEuOTA2IiB2aWV3Qm94PSIwIDAgMjkuMDQ0IDQxLjkwNiI+PGRlZnM+PHN0eWxlPi5he2ZpbGw6I2ZlMDt9PC9zdHlsZT48L2RlZnM+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODUuMzczIC04MzIuNzc4KSI+PGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTU2LjMyOSA4NzQuNjg0KSByb3RhdGUoMTgwKSI+PHBhdGggY2xhc3M9ImEiIGQ9Ik0yMS4yNjgsNDEuOTA2LDAsMjAuODk0LDIyLjU3MSwwbDYuNDc0LDYuOTkzTDEzLjc4NiwyMS4xMTgsMjcuOTY1LDM1LjEyN1oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgMCkiLz48L2c+PC9nPjwvc3ZnPg==);   
+}
+
+.koko-content-1 .carousel-control-next {
+    top: auto;
+    bottom: 10%;
+}
+.koko-content-1 .carousel-indicators {
+    justify-content: left;
+    margin-left: 10%;
+}
+.koko-content-1 .carousel-indicators li {
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: #FFEE00;
+}
+
+.koko-bg.navbar-light .navbar-toggler {
+    border:none;
+}
+
+
+.circle-container {
+    position: relative;
+    width: 24em;
+    height: 24em;
+    padding: 2.8em;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+}
+.circle-container a {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -2em;
+}
+
+.koko-content-3 .koko-nuts-wrap {
+ background-color: #FFEE00;
+ min-height: 628px;
+}
+
+.koko-content-3 .koko-nuts-wrap img{
+    position:absolute;
+    max-width: 100%;
+}
+
+.koko-content-3 .koko-nuts-wrap .koko-left{
+    left:0;
+    top:-1rem;
+}
+
+.koko-content-3 .koko-nuts-wrap .koko-right{
+    right:0;
+    bottom:4.375rem;
+}
+
+.koko-content-3 .koko-nut-left-content {
+    top:25%;
+    right: -30%;
+    position: absolute;
+    z-index: 1;
+}
+.koko-content-3 .koko-nut-left-content p {
+    font-size: 1.125rem;
+    letter-spacing: 0.125rem;
+    line-height: 1.625rem;
+}
+
+
+.koko-content-3 .koko-nuts-wrap h2 {
+    font-size: 4.938rem;
+    line-height: 4.938rem;
+    font-weight: 600;
+    font-variation-settings: "wdth" 100;
+    letter-spacing: .5625rem;
+    display: inline-block;
+}
+
+.koko-content-4 h2, .koko-content-6 h2, .koko-content-7 h2 {
+    font-size: 3.75rem;
+    letter-spacing: 0.4375rem;
+    line-height: 3.563rem;
+    font-weight: 600;
+}
+.koko-content-4 .nav-link {
+    position: relative;
+    height: 14.813rem;
+}
+.koko-content-4 .nav li {
+    width: 20%;
+}
+
+.koko-content-4 #pills-space-tab {
+    background: url('../img/benefits-1.svg') no-repeat center center;
+    width: auto;
+}
+
+.koko-content-4 #pills-space-tab.active{
+    background: url('../img/benefits-1-active.svg') no-repeat center center;
+    width: auto;
+    border-bottom: 7px solid #FFEE00;
+}
+
+.koko-content-4 #pills-business-tab {
+    background: url('../img/benefits-2.svg') no-repeat center center;
+}
+
+.koko-content-4 #pills-business-tab.active {
+    background: url('../img/benefits-2-active.svg') no-repeat center center;
+    border-bottom: 7px solid #FFEE00;
+
+}
+
+.koko-content-4 #pills-service-tab {
+    background: url('../img/benefits-3.svg') no-repeat center center;
+}
+
+.koko-content-4 #pills-service-tab.active  {
+    background: url('../img/benefits-3-active.svg') no-repeat center center;
+    border-bottom: 7px solid #FFEE00;
+
+}
+
+
+
+.koko-content-4 .nav-link label {
+    font-size: 1.5rem;
+    line-height:1.563rem;
+    position: absolute;
+    left: 0;
+    bottom:10px;
+    width: 100%;
+}
+.koko-content-4 .tab-content {
+    font-size: 0.875rem;
+    color:#505050;
+    line-height: 1.5rem;
+    font-weight: 100;
+    margin-top: 3.125rem
+}
+
+.koko-content-5 .imgwrap {
+    position: relative;
+    width:88%;
+    min-height: 700px;
+}
+
+.koko-content-5 .imgwrap .imgmain{
+    position: absolute;
+    width:100%;
+    left:0;
+    z-index:10;
+}
+.koko-content-5 .innerthemesplash {
+    position: absolute;
+    width:90px;
+    height:200px;
+    background: #FFEE00;
+    left:0;
+    z-index:11;
+    display:inline-block;
+}
+
+.koko-content-5 .themesplash {
+    position: absolute;
+    width:200px;
+    height: 400px;
+    display: inline-block;
+    background: #FFEE00;
+    right:0;
+    z-index:0;
+    top:70px;
+}
+.koko-content-6 .servicegrid-top {
+    margin-top:7.5rem;
+}
+
+.koko-content-6 p {
+    font-size:1.5rem;
+    letter-spacing: 0.125rem;
+    line-height: 2.375rem;
+}
+
+
+.videos img {
+    width:100%;
+    height:auto;
+  }
+  a.video {
+    float: left;
+    position: relative;
+  }
+  a.video span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url("../img/play-button.svg") no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .koko-footer .footer-wrap{
+      background: #3B3B3B;
+      padding-bottom: 5rem;
+  }
+  .koko-footer h5 {
+      color: #9A9A9A;
+      font-size: 0.9375rem;
+      margin-bottom: 1.875rem;
+  }
+  .koko-footer p {
+    color: #777777;
+    font-size: 0.8125rem;
+    line-height: 1.75rem;
+    margin:0;
+    padding:0;
+  } 
+
+  .koko-footer .koko-contact-wrap {
+      list-style: none;
+      padding:0;
+      margin:0;
+  }
+  .koko-footer .koko-contact-wrap li {
+    padding-bottom:1rem;
+    }
+  .koko-footer .koko-contact-wrap li a {
+    color: #777777;
+    font-size: 0.8125rem;
+    line-height: 1.75rem;
+    display: inline-block;
+    padding-left: 2rem;
+  }
+
+  .koko-footer .koko-contact-wrap li a.koko-phone {
+    background: url('../img/footer-contact.svg') no-repeat;
+    background-size: 1rem;
+  }
+  .koko-footer .koko-contact-wrap li a.koko-location {
+    background: url('../img/footer-map.svg') no-repeat;
+    background-size: 1.313rem;
+  }
+  .koko-footer .koko-contact-wrap li a.koko-mail {
+    background: url('../img/footer-mail.svg') no-repeat;
+    background-size: 1.5rem;
+  }
+
+  .koko-footer .koko-social {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin-left:1rem;
+    margin-top:1rem;
+  }
+
+  .koko-footer .koko-social.fb {
+    background: url('../img/fb.svg') no-repeat center center;
+    margin-left:0rem;
+  }
+  .koko-footer .koko-social.skype {
+    background: url('../img/skype.svg') no-repeat center center;
+  }
+  .koko-footer .koko-social.linkedin {
+    background: url('../img/linkedin.svg') no-repeat center center;
+  }
+  .koko-footer .koko-social.instagram {
+    background: url('../img/insta.svg') no-repeat center center;
+  }
+  .koko-footer .footer-right .follow {
+      margin-top:1.6rem;
+      margin-bottom: 1rem;
+
+  }
+  
+  
+  
+
+/* Media queries */
+
+  @media screen and (max-width: 480px) {
+    a.video span {
+      background-size: 10%;
+    }
+  }
+
+
+ @media (min-width: 992px) { 
+    .koko-bg .navbar-nav .nav-link {
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+    }
+} 
+
+@media (max-width: 991.98px) {
+    .koko-bg.navbar-expand-lg>.container {        
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+    }
+}
+
+/* Common */
+.koko-mt-main {
+    margin-top:6.25rem;
+}
+
+.koko-mt-sub {
+    margin-top:5rem;
+}
+
+.koko-pt-footer {
+    padding-top: 17.5rem;
+
+}
+
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #FFEE00;
+    height: 7px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+  }
