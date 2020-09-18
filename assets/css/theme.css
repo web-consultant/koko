@@ -13,7 +13,7 @@ body {
     color: #000;
     text-align: left;
     background-color: #fff;
-    font-variation-settings: "wdth" 100;
+    font-variation-settings: "wght" 400, "wdth" 100;
 }
 a, a:hover {
 color:#000;
@@ -51,7 +51,8 @@ color:#000;
     background: #EFEFEE;
     color:#8E8E8E;
     font-size: 1.563rem;
-    padding: 7% 4% 4% 4%
+    padding: 7% 4% 4% 4%;
+    display: none;
 }
 
 .koko-content-1 .koko-key-points-close-btn {
@@ -101,6 +102,32 @@ color:#000;
 
 .koko-bg.navbar-light .navbar-toggler {
     border:none;
+}
+
+.koko-content-2 .koko-content-cntarea {
+    min-height: 200px;
+    max-width:  350px;
+    background: #F6F6F6;
+    box-shadow: 2px 5px 10px #00000029;
+    position: absolute;
+    top:0;
+}
+.koko-content-2 .koko-content-cntarea img {
+    float: right;
+    padding: 20px;
+}
+
+.koko-content-2 .koko-content-cntarea h4{
+    font-size: 17px;
+    color:#2D2D2D;
+}
+
+.koko-content-2 .koko-content-cntarea p{
+    font-size: 14px;
+    color:#8E8E8E;
+}
+.koko-content-2 .koko-content-cntarea-wrap {
+    padding:35px;
 }
 
 
@@ -357,13 +384,184 @@ color:#000;
   .koko-footer .footer-right .follow {
       margin-top:1.6rem;
       margin-bottom: 1rem;
-
+  }
+  .koko-pt-footer {
+    padding-top: 17.5rem;
+  }
+  .koko-vert-content{
+      display: none;
   }
   
-  
-  
+    .koko-content-mob-1 .card,  
+    .koko-content-mob-2 .card, 
+    .koko-content-mob-4 .card, 
+    .koko-content-mob-6 .card {
+        border:0px; 
+    }
+    .koko-content-mob-1 .card-header {
+        background-color :#fff;
+        border-bottom : none;
+    }
+    .koko-content-mob-1 .card-header .btn-link {
+        font-size:1.5rem;
+    }
+    .koko-content-mob-1 .card .btn-link {
+        color:#000;
+    }
+    .koko-content-mob-1 .card .card-body{
+       font-size: 1rem;
+       font-variation-settings: "wght" 300, "wdth" 100;
+       color: #2D2D2D;
+    }
+
+    .koko-content-mob-2 .icons {
+        max-width: 44px;
+        display: inline-block;
+        margin-right:50px;
+    }
+    .koko-content-mob-4 .icons{
+        max-width: 80px;
+        display: inline-block;
+        margin-right:24px;
+    }
+
+    .koko-content-mob-6 .icons{
+        max-width: 60px;
+        display: inline-block;
+        margin-right:24px;
+    }
+
+    .koko-content-mob-6 .icons.splicons {
+        max-width: 70px;
+      }
+
+    .koko-content-mob-2 .cj-main-img{
+        max-width: 50%;
+    }
+    .koko-content-mob-2 .cj-list-item, 
+    .koko-content-mob-4 .bfits-list-item,
+    .koko-content-mob-6 .serv-list-item {
+        margin-top:40px;
+        text-align: left;
+        margin-left:10%;
+    }
+    .koko-content-mob-2 .cj-list-item .btn, 
+    .koko-content-mob-4 .bfits-list-item .btn,
+    .koko-content-mob-6 .serv-list-item .btn{
+        display: inline-block;
+    }
+
+    .koko-content-mob-2 .cj-list-item .btn:focus, 
+    .koko-content-mob-4 .bfits-list-item .btn:focus,
+    .koko-content-mob-6 .serv-list-item .btn:focus  {
+        box-shadow: none;
+    }
+    .koko-content-mob-2 .cj-list-item .cj-text, 
+    .koko-content-mob-4 .bfits-list-item .bfits-text,
+    .koko-content-mob-6 .serv-list-item .serv-text {
+        display:inline-block;
+        text-align: left;
+    }
+
+    .koko-content-mob-4 .bfits-list-item .bfits-text,
+    .koko-content-mob-6 .serv-list-item .serv-text {
+        width:140px
+    }
+
+    .koko-content-mob-3 {
+        background: #FFEE00;
+        padding: 4.375rem 2.5rem;
+    }
+    .koko-content-mob-3 h2 {
+        font-size: 4rem;
+        line-height: 3.563rem;
+    }
+    .koko-content-mob-3 .koko-nut-mob-img {
+        width:80px;
+        position: absolute;
+        top:0;
+        right:0;
+        
+    }
+    .koko-content-mob-4 .bfits-list-item .btn:after, .koko-content-mob-6 .serv-list-item .btn:after{
+        content: '';
+        width:25px;
+        height:15px;
+        background-size: 15px;
+        background-image: url(../img/down_arrow_new.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        display:inline-block;
+    }
+    
+    
+    
 
 /* Media queries */
+
+/*
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        position: absolute;
+        background-color:#000;
+        width: 100%;
+    }
+
+    .navbar-collapse.collapsing,.navbar-collapse.show {
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        transition-property: opacity,transform,-webkit-transform;
+        // -webkit-transform-origin: top right;
+        //transform-origin: top right; 
+    }
+
+    .navbar-collapse.show {
+        opacity: 1;
+        transition: 1s;
+        left: 0;
+    }
+
+    .navbar-collapse.collapsing {
+        opacity: 0;
+        -webkit-transform: scale(.9);
+        transform: scale(.9)
+    }
+}
+*/
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 88px;
+        left: 100%;
+        width: 100%;
+        transition: all 0.4s ease;
+        display: block;
+        background:#2D2D2D;
+    }
+    .navbar-collapse.collapsing {
+        height: auto !important;
+        margin-left: 50%;
+        left: 50%;
+        transition: all 0.2s ease;
+    }
+    .navbar-collapse.show {
+        left: 0;
+    }
+    .koko-bg.navbar-light .navbar-nav .nav-link {
+        color:#fff;
+        text-align:center;
+        font-size:1.5rem;
+
+    }
+}
+
+
+@media (min-width: 1366px) {
+    .container {
+        max-width: 1366px;
+    }
+}
 
   @media screen and (max-width: 480px) {
     a.video span {
@@ -386,7 +584,75 @@ color:#000;
     }
 }
 
+@media (max-width: 991.98px) {
+    .koko-pt-footer {
+        padding-top: 3.125rem;
+        padding-left: 2.5rem;
+    }
+    .koko-footer .container, .koko-content-7 .container {
+        padding: 0;
+    }
+    .koko-content-7 h2 {
+        font-size: 2rem;
+        letter-spacing: 0.236rem;
+    }
+    .koko-content-7 .koko-mt-sub {
+        margin-top: 2.313rem;
+    }
+    .koko-content-7.koko-mt-main {
+        margin-top:4.063rem;
+    }
+
+    .koko-content-5 .imgwrap {
+        width: 100%;
+        min-height: initial;
+    }
+    .koko-content-5 .imgwrap .imgmain {
+        position: relative;
+        max-width: 100%;
+    }
+    
+}
+
+
+
+
 /* Common */
+
+.tooltip h4{
+    font-family: 'Bahnschrift';
+    font-variation-settings: "wght" 600, "wdth" 100;
+}
+
+.tooltip p{
+    font-family: 'Bahnschrift';
+    font-variation-settings: "wght" 350, "wdth" 100;
+}
+
+.tooltip-inner {
+    background: #F6F6F6;
+    padding:35px;
+    max-width:  350px;
+}
+.tooltip .arrow::before {
+    border-bottom-color: #F6F6F6;
+    border-top-color:#F6F6F6;
+}
+
+.tooltip.show {
+    opacity: 1;
+}
+
+.tooltip h4{
+    font-size: 17px;
+    color:#2D2D2D;
+}
+
+.tooltip p{
+    font-size: 14px;
+    color:#8E8E8E;
+}
+
 .koko-mt-main {
     margin-top:6.25rem;
 }
@@ -395,9 +661,9 @@ color:#000;
     margin-top:5rem;
 }
 
-.koko-pt-footer {
-    padding-top: 17.5rem;
 
+.koko-mt-main-mob {
+    margin-top:4.063rem;
 }
 
 .hvr-underline-from-left {
